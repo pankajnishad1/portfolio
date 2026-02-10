@@ -1,0 +1,67 @@
+[
+    {
+      "skillname" : "Front-End Development",
+      "skilldetails" :"Building engaging and user-friendly web interfaces using modern frameworks and technologies with expertise.",
+      "icons":
+      [{
+        "icon":"FaHtml5",
+        "color":"e44d26"
+       },
+       {
+        "icon":"FaJs" ,
+        "color":"f0db4f"
+       },
+       {
+        "icon":"FaReact",
+        "color":"5ccded"
+       },
+       {
+        "icon":"SiRedux",
+        "color":"553883"
+       }]
+    },
+    {
+      "skillname" : "Styling & Design",
+      "skilldetails" :"Crafting visually appealing and responsive designs with advanced styling tools and frameworks.",
+      "icons":
+      [{
+        "icon":"FaCss3Alt",
+        "color":"1572b6"
+       },
+       {
+        "icon":"RiTailwindCssFill" ,
+        "color":"38b2ac"
+       },
+       {
+        "icon":"FaBootstrap",
+        "color":"7211f3"
+       }]
+    },
+    {
+      "skillname" : "Version Control & Collaboration",
+      "skilldetails" :"Effectively managing code and collaborating on projects to ensure seamless teamwork.",
+      "icons":
+      [{
+        "icon":"FaGithub",
+        "color":"white"
+       },
+       {
+        "icon":"FaGitAlt",
+        "color":"white"
+       }]
+    },
+    {
+      "skillname" : "Web Animations",
+      "skilldetails" :"Creating seamless animations and transitions to enhance user engagement and interactivity.",
+      "icons":
+      [{
+        "icon":"SiFramer",
+        "color":"004482"
+       },
+       {
+        "icon":"img",
+        "color":"004482"
+       }
+    ]
+    }
+  ]

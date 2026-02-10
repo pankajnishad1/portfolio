@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base */
+@font-face{
+    font-family: 'overpass_bold';
+    src: url(/fonts/overpass_bold.ttf);
+}
+@font-face{
+    font-family: 'overpass_regular';
+    src: url(/fonts/overpass_regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: 0;
+    border: 0;
+    font-family: 'overpass_regular','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: white; */
+}
+html,body{
+    font-size: 62.5%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 2.2rem;
+}
+p,li,a,span{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+li,a{
+    list-style: none;
+    text-decoration: none;
+}
+/* states */
