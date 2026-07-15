@@ -1,6 +1,7 @@
 import React from 'react'
 import { PiArrowCircleUpRightThin } from 'react-icons/pi'
 import { motion,AnimatePresence } from 'framer-motion';
+import Navbar from '../ui/Navbar';
 function Herosection() {
   return (
     <>
@@ -10,6 +11,9 @@ function Herosection() {
       <img src="image/1766556152167.png" 
       alt="hero image"
       className='h-[100%] oject-cover oject-center' />
+       <div className='absolute z-20 bottom-10 left-1/2 -translate-x-1/2'>
+        <Navbar />
+      </div>
       </div>
       <motion.div 
       initial ={{opacity:0,y:20}}

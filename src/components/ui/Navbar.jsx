@@ -32,7 +32,7 @@ function Navbar() {
                 </div>)
             }}
         </NavLink>
-        <a href='/Cv.pdf' download='Cv'>
+        <a href='/Resume.pdf' download='Resume'>
                 <div className={`h-20 w-20 flex justify-center items-center text-[3rem] bg-[#262626] rounded-full `}>
                     <ImFileText2  />
                 </div>

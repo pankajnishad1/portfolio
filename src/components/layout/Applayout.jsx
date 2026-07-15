@@ -9,7 +9,6 @@ import Introanimation from '../introanimation/Introanimation';
 function Applayout() {
     const location=useLocation();
     const [introdone,setintrodone] = React.useState(false);
-    console.log(introdone)
     const onfinish=()=>setintrodone(true)
   return (
     <>
@@ -17,14 +16,14 @@ function Applayout() {
       (<Introanimation onFinish={onfinish}/>)
     }
     {introdone && (
-    <div className=' h-auto w-[1256.5px] m-auto '>
+    <div className=' h-auto w-[125.6rem] m-auto '>
    
       <Header />
       <Outlet />
-      {location.pathname=='/projects'?'':
-      <div className='absolute z-20 bottom-10 left-[50%] translate-x-[-50%]'>
+      {/* {location.pathname=='/projects'?'':
+      <div className='absolute z-20 bottom-10 left-1/2 -translate-x-1/2'>
         <Navbar />
-      </div>}
+      </div>} */}
       <Footer/>
     </div>)}
     </>
