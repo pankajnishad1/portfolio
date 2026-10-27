@@ -36,7 +36,7 @@ const projectarr = [
   },
   {
     projectname: "PixText Application",
-    projectlink: "public/image/pixtext.png",
+    projectlink: "https://pixtext.onrender.com",
     image: "image/pixtext.png", 
     tech: "React, Node.js, Express, MongoDB, Gemini API",
     projectdetails: "A full-stack responsive application featuring secure user authentication and dynamic image uploads. Integrates the Gemini API to build an automated post creation feature with AI-generated captions."
