@@ -21,10 +21,10 @@ function Herosection() {
       transition={{duration:1.75}}
       className='absolute flex  bottom-[30%] bg-red-10 h-64 w-full z-0 '>
          
-      <h1 className=' ml-[6rem] text-[12rem] '>
-          Frontend 
+      <h1 className=' ml-[5rem] text-[12rem] '>
+         Fullstack
       </h1>
-      <h1 className=' ml-[14rem] text-[12rem] '>
+      <h1 className=' ml-[15rem] text-[12rem] '>
            Developer 
       </h1>
       </motion.div>
@@ -32,7 +32,7 @@ function Herosection() {
     <div 
     className='bg-white px-10 py-8 flex justify-between gap-[30rem] items-center'>
       <h4 >
-        I’m a frontend developer driven by curiosity and design thinking. I build digital experiences that are simple, functional, and visually striking—turning ideas into interactive realities with code
+        I’m a Fullstack mern developer driven by curiosity and design thinking. I build digital experiences that are simple, functional, and visually striking—turning ideas into interactive realities with code
       </h4>
       <div>
       <p className='text-end'>

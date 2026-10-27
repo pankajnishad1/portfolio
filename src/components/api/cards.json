@@ -63,5 +63,26 @@
         "color":"004482"
        }
     ]
+    },
+    {
+      "skillname" : "Backend & Database",
+      "skilldetails" :"Developing robust server-side logic, creating RESTful APIs, and managing data for scalable full-stack applications.",
+      "icons":
+      [{
+        "icon":"FaNodeJs",
+        "color":"339933"
+       },
+       {
+        "icon":"SiExpress",
+        "color":"ffffff"
+       },
+       {
+        "icon":"SiMongodb",
+        "color":"47a248"
+       },
+       {
+        "icon":"SiPostman",
+        "color":"ff6c37"
+       }]
     }
   ]

@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa'
 import { RiTailwindCssFill } from 'react-icons/ri'
-import { SiFramer, SiRedux } from 'react-icons/si'
+import { SiExpress, SiFramer, SiMongodb, SiPostman, SiRedux } from 'react-icons/si'
 import cards from '../api/cards.json'
 
 function Skillscards() {
@@ -17,6 +17,10 @@ const icons=
         FaGithub :<FaGithub  />,
         FaGitAlt :<FaGitAlt  />,
         SiFramer :<SiFramer />,
+        FaNodeJs:<FaNodeJs/>,
+        SiExpress: <SiExpress />,
+        SiMongodb: <SiMongodb />,
+        SiPostman: <SiPostman />,
         img: <img src="/image/gsap.png" className='object-center object-cover h-16 w-16' alt="gsap" />
     }
 

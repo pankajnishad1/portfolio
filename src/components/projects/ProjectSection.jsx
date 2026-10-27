@@ -34,6 +34,13 @@ const projectarr = [
     projectdetails:
       "A weather application fetching live data via API. Displays temperature, feels-like conditions, humidity, wind speed, and pressure for user-specified locations." // 
   },
+  {
+    projectname: "PixText Application",
+    projectlink: "public/image/pixtext.png",
+    image: "image/pixtext.png", 
+    tech: "React, Node.js, Express, MongoDB, Gemini API",
+    projectdetails: "A full-stack responsive application featuring secure user authentication and dynamic image uploads. Integrates the Gemini API to build an automated post creation feature with AI-generated captions."
+  },
 ];
 
 
