@@ -3,6 +3,13 @@ import Projectcard from './Projectcard'
 
 const projectarr = [
   {
+    projectname: "PixText Application",
+    projectlink: "https://pixtext.onrender.com",
+    image: "image/pixtext.png", 
+    tech: "React, Node.js, Express, MongoDB, Gemini API",
+    projectdetails: "A full-stack responsive application featuring secure user authentication and dynamic image uploads. Integrates the Gemini API to build an automated post creation feature with AI-generated captions."
+  },
+  {
     projectname: "Music Player",
     projectlink: "https://moonlit-tartufo-e2e8b6.netlify.app",
     image: "image/musicplayer.png",
@@ -33,13 +40,6 @@ const projectarr = [
     tech: "HTML, CSS, JavaScript",
     projectdetails:
       "A weather application fetching live data via API. Displays temperature, feels-like conditions, humidity, wind speed, and pressure for user-specified locations." // 
-  },
-  {
-    projectname: "PixText Application",
-    projectlink: "https://pixtext.onrender.com",
-    image: "image/pixtext.png", 
-    tech: "React, Node.js, Express, MongoDB, Gemini API",
-    projectdetails: "A full-stack responsive application featuring secure user authentication and dynamic image uploads. Integrates the Gemini API to build an automated post creation feature with AI-generated captions."
   },
 ];
 
